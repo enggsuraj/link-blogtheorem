@@ -1,0 +1,230 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+p,
+h1 {
+  font-size: 12px;
+}
+
+h1 {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.container {
+  width: 35%;
+  margin: 10px auto;
+}
+
+.clearfix {
+  content: "";
+  clear: both;
+}
+
+/******** HEADER *********/
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  background-color: white;
+}
+
+.profile__text h1 {
+  padding-bottom: 10px;
+}
+
+.profile__text p {
+  font-family: sans-serif;
+}
+
+.profile {
+  width: 35%;
+  margin: 0 10px;
+  text-align: center;
+}
+
+#profile__image {
+  width: auto;
+  height: 90px;
+  border-radius: 100%;
+}
+
+/******** SLIDER *********/
+.wrapper__container {
+  background-image: linear-gradient(315deg, #fdfbfb 0%, #ebedee 74%);
+  height: 55px;
+  margin: 8px;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: auto;
+}
+
+.item {
+  margin: 8px;
+  top: 50%;
+  width: 57px;
+}
+
+.wrapper::-webkit-scrollbar {
+  width: 0;
+}
+
+.wrapper img {
+  width: 40px;
+  height: 40px;
+  display: block;
+}
+
+/******** SECTION *********/
+
+section {
+  margin: 20px 0;
+}
+
+.section-github {
+  margin: 8px;
+  text-align: center;
+  background-color: white;
+}
+.github__image {
+  width: 95%;
+}
+
+/******** PROJECT *********/
+
+.main-box {
+  width: 95%;
+  margin: 0 auto;
+  background-color: rgb(238, 238, 238);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 10px 0;
+  border-radius: 0px;
+  background: #ffffff;
+  -webkit-box-shadow: 5px 5px 11px #6b6b6b, -5px -5px 11px #ffffff;
+  box-shadow: 5px 5px 11px #6b6b6b, -5px -5px 11px #ffffff;
+}
+
+.main-box:hover,
+.main-box:active {
+  -webkit-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  transform: scale(1.02);
+}
+
+.left-box {
+  -webkit-box-flex: 80%;
+  -ms-flex: 80%;
+  flex: 80%;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.box-logo {
+  -webkit-box-flex: 15%;
+  -ms-flex: 15%;
+  flex: 15%;
+  text-align: center;
+  margin-right: 15px;
+}
+
+.box-title {
+  margin-left: 20px;
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  padding: 4px 0;
+}
+
+.box-description p {
+  margin: 3px 0 4px 20px;
+  font-family: "Poppins", sans-serif;
+  width: 85%;
+}
+
+.icon-1 {
+  width: 100%;
+  height: 100%;
+}
+
+/******************* FOOTER *******************/
+
+.footer,
+.footer-bottom {
+  padding-top: 10px;
+}
+
+.footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0 6px;
+}
+
+.footer ul li i {
+  color: black;
+  padding: 0 8px;
+  font-size: 25px;
+}
+
+.icon:hover {
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+/******************* EMAIL *******************/
+
+.footer-bottom {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer-bottom h1 {
+  text-transform: uppercase;
+  padding: 5px;
+  font-weight: 200;
+}
+
+.footer-bottom p:last-child {
+  padding: 6px;
+  font-weight: normal;
+}
+
+.contrib-footer {
+  display: none;
+}
