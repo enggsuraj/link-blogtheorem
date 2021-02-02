@@ -23,9 +23,15 @@ h1 {
   font-family: "Ubuntu", sans-serif;
 }
 
+h2 {
+  font-size: 14px;
+}
+
 .container {
   width: 35%;
-  margin: 10px auto;
+  margin: 0 auto;
+  padding: 5px 15px;
+  background-color: white;
 }
 
 .clearfix {
@@ -39,7 +45,6 @@ h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 10px;
   align-items: center;
   background-color: white;
 }
@@ -68,7 +73,8 @@ h1 {
 .wrapper__container {
   background-image: linear-gradient(315deg, #fdfbfb 0%, #ebedee 74%);
   height: 55px;
-  margin: 8px;
+  margin: 8px 0;
+  border-radius: 10px;
 }
 
 .wrapper {
@@ -78,6 +84,13 @@ h1 {
   display: -ms-flexbox;
   display: flex;
   overflow: auto;
+  overflow-x: scroll;
+  overflow-y: scroll;
+}
+
+.wrapper.active {
+  cursor: grabbing;
+  cursor: -webkit-grabbing;
 }
 
 .item {
@@ -103,10 +116,11 @@ section {
 }
 
 .section-github {
-  margin: 8px;
+  margin: 8px 0;
   text-align: center;
   background-color: white;
 }
+
 .github__image {
   width: 95%;
 }
@@ -114,14 +128,11 @@ section {
 /******** PROJECT *********/
 
 .main-box {
-  width: 95%;
   margin: 0 auto;
-  background-color: rgb(238, 238, 238);
+  border-radius: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -129,7 +140,6 @@ section {
   -ms-flex-align: center;
   align-items: center;
   padding: 10px 0;
-  border-radius: 0px;
   background: #ffffff;
   -webkit-box-shadow: 5px 5px 11px #6b6b6b, -5px -5px 11px #ffffff;
   box-shadow: 5px 5px 11px #6b6b6b, -5px -5px 11px #ffffff;
@@ -214,10 +224,11 @@ section {
   font-family: "Poppins", sans-serif;
 }
 
-.footer-bottom h1 {
+.footer-bottom h3 {
   text-transform: uppercase;
   padding: 5px;
-  font-weight: 200;
+  font-weight: 600;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .footer-bottom p:last-child {
