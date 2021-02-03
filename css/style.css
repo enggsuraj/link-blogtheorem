@@ -258,6 +258,17 @@ section {
   padding: 5px;
 }
 
+.footer-bottom a {
+  color: white;
+  transition: all 0.5s ease;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.footer-bottom a:hover {
+  background-color: #eee;
+  color: black;
+}
+
 .footer-bottom p:last-child {
   padding: 6px;
   font-weight: normal;
@@ -271,7 +282,7 @@ section {
   -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
   transform: translateX(-9%) translateY(-25%) rotate(45deg);
   height: 604%;
-  width: 300px;
+  width: 250px;
   left: 43px;
   border-radius: 100%;
 }
@@ -307,5 +318,5 @@ section {
   transition: all 0.5s ease-in-out;
   -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
   transform: translateX(-98%) translateY(-25%) rotate(45deg);
-  opacity: 0.05;
+  opacity: 0.06;
 }
