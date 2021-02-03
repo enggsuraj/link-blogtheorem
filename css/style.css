@@ -13,6 +13,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+}
+
 html,
 p,
 h1 {
@@ -30,8 +34,7 @@ h2 {
 .container {
   width: 35%;
   margin: 0 auto;
-  padding: 5px 15px;
-  background-color: white;
+  padding: 10px 15px;
 }
 
 .clearfix {
@@ -47,6 +50,7 @@ h2 {
   display: flex;
   align-items: center;
   background-color: white;
+  border-radius: 10px;
 }
 
 .profile__text h1 {
@@ -55,6 +59,10 @@ h2 {
 
 .profile__text p {
   font-family: sans-serif;
+}
+
+.profile__text {
+  padding: 10px 10px 10px 0;
 }
 
 .profile {
@@ -119,6 +127,7 @@ section {
   margin: 8px 0;
   text-align: center;
   background-color: white;
+  border-radius: 10px;
 }
 
 .github__image {
@@ -141,8 +150,10 @@ section {
   align-items: center;
   padding: 10px 0;
   background: #ffffff;
-  -webkit-box-shadow: 5px 5px 11px #6b6b6b, -5px -5px 11px #ffffff;
-  box-shadow: 5px 5px 11px #6b6b6b, -5px -5px 11px #ffffff;
+  border: 1px outset #ececec;
+  box-shadow: 5px 5px 5px -2px rgba(100, 100, 100, 0.98);
+  -webkit-box-shadow: 5px 5px 5px -2px rgba(100, 100, 100, 0.98);
+  -moz-box-shadow: 5px 5px 5px -2px rgba(100, 100, 100, 0.98);
 }
 
 .main-box:hover,
@@ -227,8 +238,6 @@ section {
 .footer-bottom h3 {
   text-transform: uppercase;
   padding: 5px;
-  font-weight: 600;
-  font-family: "Ubuntu", sans-serif;
 }
 
 .footer-bottom p:last-child {
