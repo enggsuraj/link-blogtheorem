@@ -51,6 +51,7 @@ h2 {
   align-items: center;
   background-color: white;
   border-radius: 10px;
+  justify-content: center;
 }
 
 .profile__text h1 {
