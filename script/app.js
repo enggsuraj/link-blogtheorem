@@ -1,5 +1,5 @@
 // GITHUB CALENDER
-// GitHubCalendar(".calendar", "enggsuraj", { responsive: true });
+GitHubCalendar(".calendar", "enggsuraj", { responsive: true });
 
 // ANIMATION INITIALIZATION
 AOS.init({

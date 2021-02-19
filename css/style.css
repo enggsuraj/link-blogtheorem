@@ -14,16 +14,16 @@
 }
 
 body {
-  /* background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%); */
   background-image: linear-gradient(
       to bottom right,
-      #ebebeb2d 0%,
-      #8a8a8a2c 100%
+      #2c050586 0%,
+      #0000003b 100%
     ),
-    url("/img/mountain.png");
+    url("/img/gif/green.gif");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 :after,
@@ -234,9 +234,9 @@ section {
 }
 
 .footer ul li i {
-  color: black;
+  color: white;
   padding: 0 8px;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .icon:hover {
