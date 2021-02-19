@@ -19,7 +19,7 @@ body {
       #2c050586 0%,
       #0000003b 100%
     ),
-    url("/img/gif/green.gif");
+    url("/img/gif/water.gif");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -50,7 +50,7 @@ h2 {
 .container {
   width: 35%;
   margin: 0 auto;
-  padding: 10px 15px;
+  padding: 10px;
 }
 
 .clearfix {
