@@ -17,7 +17,7 @@ body {
   background-image: linear-gradient(
       to bottom right,
       #2c050586 0%,
-      #0000003b 100%
+      #000000c5 100%
     ),
     url("/img/gif/water.gif");
   background-position: center;
@@ -319,4 +319,9 @@ section {
   -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
   transform: translateX(-98%) translateY(-25%) rotate(45deg);
   opacity: 0.06;
+}
+
+.float-left,
+.float-right {
+  display: none;
 }
