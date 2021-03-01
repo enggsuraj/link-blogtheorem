@@ -14,7 +14,7 @@
 }
 
 body {
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
       to bottom right,
       #2c050586 0%,
       #000000c5 100%
@@ -23,7 +23,8 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: fixed; */
+  background-color: white;
 }
 
 :after,
@@ -65,10 +66,11 @@ h2 {
   display: -ms-flexbox;
   display: flex;
   align-items: center;
-  background-color: white;
+  background-color: #004643;
   border-radius: 10px;
   justify-content: center;
   padding: 10px 0;
+  color: white;
 }
 
 .profile__text h1 {
@@ -97,10 +99,11 @@ h2 {
 
 /******** SLIDER *********/
 .wrapper__container {
-  background-image: linear-gradient(315deg, #fdfbfb 0%, #ebedee 74%);
+  /* background-image: linear-gradient(315deg, #fdfbfb 0%, #ebedee 74%); */
   height: 55px;
   margin: 8px 0;
   border-radius: 10px;
+  background-color: #f2f7f5;
 }
 
 .wrapper {
@@ -166,7 +169,7 @@ section {
   -ms-flex-align: center;
   align-items: center;
   padding: 10px 0;
-  background: #ffffff;
+  background: #f2f7f5;
   border: 1px outset #ececec;
   box-shadow: 5px 5px 5px -2px rgba(100, 100, 100, 0.98);
   -webkit-box-shadow: 5px 5px 5px -2px rgba(100, 100, 100, 0.98);
@@ -203,6 +206,7 @@ section {
   font-family: "Ubuntu", sans-serif;
   text-transform: uppercase;
   padding: 4px 0;
+  color: #001e1d;
 }
 
 .box-description p {
@@ -234,7 +238,7 @@ section {
 }
 
 .footer ul li i {
-  color: white;
+  color: black;
   padding: 0 8px;
   font-size: 30px;
 }
@@ -250,7 +254,7 @@ section {
 .footer-bottom {
   text-align: center;
   font-family: "Poppins", sans-serif;
-  color: #ffffff;
+  color: black;
 }
 
 .footer-bottom h3 {
@@ -259,7 +263,7 @@ section {
 }
 
 .footer-bottom a {
-  color: white;
+  color: black;
   transition: all 0.5s ease;
   padding: 5px 10px;
   border-radius: 5px;
@@ -270,8 +274,7 @@ section {
 }
 
 .footer-bottom p:last-child {
-  padding: 6px;
-  font-weight: normal;
+  font-size: 14px;
 }
 
 .contrib-footer {
@@ -313,12 +316,12 @@ section {
   top: 14px;
   height: 200px;
   width: 200px;
-  background: #1b273d;
+  background: #001e1d;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
   -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
   transform: translateX(-98%) translateY(-25%) rotate(45deg);
-  opacity: 0.06;
+  opacity: 0.4;
 }
 
 .float-left,

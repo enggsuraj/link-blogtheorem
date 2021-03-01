@@ -32,7 +32,11 @@ rect.ContributionCalendar-day[data-level="4"] {
   border-radius: 10px;
   text-align: center;
   margin: 0 auto;
-  padding: 5px;
+  padding: 0px;
+}
+
+.js-calendar-graph-svg {
+  padding: 10px;
 }
 
 .calendar-graph text.wday,
