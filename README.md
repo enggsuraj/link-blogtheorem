@@ -1,1 +1,1 @@
-<!-- ![blogtheorem](https://user-images.githubusercontent.com/6918020/106665885-dec33180-65cc-11eb-9a4e-a1e08d09cd37.png) -->
+![blogtheorem-v2](https://user-images.githubusercontent.com/6918020/116078300-0dc0df00-a6b4-11eb-835a-37fb1ce8e903.png)
