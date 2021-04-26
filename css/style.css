@@ -261,6 +261,9 @@ section {
   text-align: center;
   font-family: "Poppins", sans-serif;
   color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer-bottom h3 {
