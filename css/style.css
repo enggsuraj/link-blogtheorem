@@ -173,10 +173,12 @@ section {
 }
 
 .main-box:hover,
+.testimonial_box:hover,
 .main-box:active {
   -webkit-transform: scale(1.02);
   -ms-transform: scale(1.02);
   transform: scale(1.02);
+  transition: all 0.3s ease;
 }
 
 .left-box {
@@ -207,8 +209,6 @@ section {
 
 .box-description p {
   margin: 3px 0;
-  font-weight: bold;
-
   font-family: "Poppins", sans-serif;
 }
 
@@ -352,4 +352,27 @@ section {
   width: 100%;
   border-radius: 10px;
   box-shadow: 0 8px 6px -6px rgb(50 51 51 / 40%);
+}
+
+.testimonial .testimonial_box {
+  background: #174153;
+  color: white;
+  border-radius: 10px;
+  padding: 20px 0;
+}
+
+.testimonial h2 {
+  color: white;
+}
+
+.testimonial h3 {
+  padding: 5px 0;
+}
+
+.testimonial p {
+  font-family: "Ubuntu", sans-serif;
+  text-transform: capitalize;
+  width: 98%;
+  word-spacing: 2px;
+  padding-bottom: 5px;
 }
