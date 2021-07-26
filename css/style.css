@@ -19,6 +19,9 @@ body {
   background-size: cover;
   background-attachment: fixed; */
   background-color: white;
+  /* background-image: url("/img/back.png");
+  background-size: cover;
+  background-repeat: no-repeat; */
 }
 
 :after,
@@ -62,6 +65,7 @@ h2 {
   -ms-flex-align: center;
   align-items: center;
   background-color: #174153;
+
   border-radius: 10px;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
@@ -153,23 +157,54 @@ section {
   width: 95%;
 }
 
+.side-icon {
+  width: 100px;
+  text-align: center;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+}
+
 /******** PROJECT *********/
 
 .main-box {
-  border-radius: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  position: relative;
+  border-radius: 5px;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  padding: 10px 0;
+  padding: 30px 0;
   cursor: pointer;
   background: #f2f7f5;
   border: 1px outset #ececec;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.781);
+
+  background: rgba(23, 65, 83, 0.05);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.box-title {
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  padding: 4px 0;
+  color: #001e1d;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.box-title h2 {
+  text-align: center;
+  font-style: bold;
 }
 
 .main-box:hover,
@@ -198,13 +233,6 @@ section {
   flex: 15%;
   text-align: center;
   margin-right: 15px;
-}
-
-.box-title {
-  font-family: "Ubuntu", sans-serif;
-  text-transform: uppercase;
-  padding: 4px 0;
-  color: #001e1d;
 }
 
 .box-description p {
