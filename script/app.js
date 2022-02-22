@@ -324,7 +324,7 @@ tsParticles.load("tsparticles", {
       mode: "bounce",
     },
     color: {
-      value: "#000",
+      value: "#fff",
       animation: {
         enable: true,
         speed: 50,
