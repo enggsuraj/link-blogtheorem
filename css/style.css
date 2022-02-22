@@ -1,12 +1,5 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-*/
-
 * {
   margin: 0;
-
   padding: 0;
   text-decoration: none;
   -webkit-box-sizing: border-box;
@@ -24,7 +17,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed; */
-  background-color: white;
+  background-color: #1c252e;
 }
 
 :after,
@@ -46,6 +39,7 @@ h1 {
 
 h2 {
   font-size: 14px;
+  color: white;
 }
 
 .container {
@@ -66,44 +60,43 @@ h2 {
   display: -ms-flexbox;
   display: flex;
   align-items: center;
-  background-color: #004643;
+  background-color: #363c48;
   border-radius: 10px;
   justify-content: center;
   padding: 10px 0;
   color: white;
+  box-shadow: -1px 10px 56px -5px rgba(54, 60, 72, 1);
 }
 
 .profile__text h1 {
   padding-bottom: 10px;
 }
 
-.profile__text p {
-  font-family: sans-serif;
-}
-
 .profile__text {
-  padding: 10px 10px 10px 0;
+  font-family: "Poppins", sans-serif;
+  padding-right: 15px;
 }
 
 .profile {
+  margin: 10px;
   width: 35%;
-  margin: 0 10px;
   text-align: center;
+  box-shadow: -1px 3px 11px 8px rgba(54, 60, 72, 1);
 }
 
 #profile__image {
   width: auto;
-  height: 90px;
+  height: 85px;
   border-radius: 100%;
 }
 
 /******** SLIDER *********/
 .wrapper__container {
-  /* background-image: linear-gradient(315deg, #fdfbfb 0%, #ebedee 74%); */
   height: 55px;
   margin: 8px 0;
   border-radius: 10px;
-  background-color: #f2f7f5;
+  background-color: #fe8d79;
+  box-shadow: -1px 10px 19px -12px rgba(255, 175, 41, 1);
 }
 
 .wrapper {
@@ -141,7 +134,7 @@ h2 {
 /******** SECTION *********/
 
 section {
-  margin: 10px 0;
+  margin: 15px 0;
 }
 
 .section-github {
@@ -169,11 +162,11 @@ section {
   -ms-flex-align: center;
   align-items: center;
   padding: 10px 0;
-  background: #f2f7f5;
-  border: 1px outset #ececec;
-  box-shadow: 5px 5px 5px -2px rgba(100, 100, 100, 0.98);
-  -webkit-box-shadow: 5px 5px 5px -2px rgba(100, 100, 100, 0.98);
-  -moz-box-shadow: 5px 5px 5px -2px rgba(100, 100, 100, 0.98);
+  background: #363c48;
+  color: white;
+  transition: all 0.3s ease;
+  margin-top: 15px;
+  box-shadow: -1px 10px 56px -5px rgba(54, 60, 72, 1);
 }
 
 .main-box:hover,
@@ -238,7 +231,7 @@ section {
 }
 
 .footer ul li i {
-  color: black;
+  color: white;
   padding: 0 8px;
   font-size: 30px;
 }
@@ -254,7 +247,7 @@ section {
 .footer-bottom {
   text-align: center;
   font-family: "Poppins", sans-serif;
-  color: black;
+  color: white;
 }
 
 .footer-bottom h3 {
@@ -263,11 +256,12 @@ section {
 }
 
 .footer-bottom a {
-  color: black;
+  color: white;
   transition: all 0.5s ease;
   padding: 5px 10px;
   border-radius: 5px;
 }
+
 .footer-bottom a:hover {
   background-color: #eee;
   color: black;
@@ -281,6 +275,7 @@ section {
   display: none;
 }
 
+/*
 .lgx-btn:hover:after {
   -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
   transform: translateX(-9%) translateY(-25%) rotate(45deg);
@@ -309,7 +304,7 @@ section {
   box-shadow: 0 8px 6px -6px rgb(50 51 51 / 40%);
 }
 
-.lgx-btn:after {
+ .lgx-btn:after {
   content: "";
   position: absolute;
   left: 40px;
@@ -322,7 +317,7 @@ section {
   -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
   transform: translateX(-98%) translateY(-25%) rotate(45deg);
   opacity: 0.4;
-}
+} */
 
 .float-left,
 .float-right {
