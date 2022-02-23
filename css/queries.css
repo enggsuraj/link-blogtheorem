@@ -31,7 +31,17 @@
     font-size: 9px;
   }
   .icon-1 {
-    width: 70px;
+    width: 120px;
+    height: 90px;
+    margin-left: 10px;
+  }
+  .box-description p {
+    font-size: 10px;
+  }
+
+  .cp {
+    width: 60%;
+    margin: 0 auto;
   }
 }
 
